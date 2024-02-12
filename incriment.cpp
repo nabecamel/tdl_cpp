@@ -8,6 +8,10 @@ int	main(void)
 
 	x++;
 	cout << x << endl;
-	x = a * b;
+	x = x *  (a + b) ;
 	cout << x  << endl;
-	cout <<  << endl;
+	x *= x;
+	cout << x << endl;
+	x--;
+	cout << x << endl;
+}
